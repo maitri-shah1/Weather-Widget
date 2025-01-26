@@ -1,0 +1,85 @@
+   .InfoBox {
+    text-align: center;
+    margin-top: 2rem;
+    color: #333;
+  }
+  
+  /* Card Container */
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+  }
+  
+  /* Card Styling */
+  .MuiCard-root {
+    max-width: 600px;
+    width: 100%;
+    background: rgba(246, 246, 226, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .MuiCard-root:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    background-color: beige;
+  }
+  
+  /* Card Image */
+  .MuiCardMedia-root {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Card Content */
+  .MuiCardContent-root {
+    padding: 1.5rem;
+  }
+  
+  /* Typography Styling */
+  .MuiTypography-root {
+    margin-bottom: 1rem;
+  }
+  
+  /* City Title */
+  .MuiTypography-h5 {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #092740;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  /* Weather Details */
+  .MuiTypography-body2 div {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  /* Weather Value Highlight */
+  .MuiTypography-body2 div strong {
+    color: #1e88e5;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .MuiCard-root {
+      max-width: 90%;
+    }
+  
+    .MuiTypography-h5 {
+      font-size: 1.5rem;
+    }
+  
+    .MuiTypography-body2 div {
+      font-size: 0.9rem;
+    }
+  }
+  

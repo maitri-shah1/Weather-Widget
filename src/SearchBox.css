@@ -1,0 +1,38 @@
+.SearchBox {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 550px;
+    margin-top: 2rem;
+  }
+  
+  /* Input Field Styling */
+  .MuiTextField-root {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  /* Button Styling */
+  .MuiButton-root {
+    background-color: #1e90ff;
+    color: white;
+    font-weight: bold;
+    text-transform: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .MuiButton-root:hover {
+    background-color: #005cbf;
+    transform: scale(1.05);
+  }
+  
+  /* Error Message Styling */
+  p {
+    color: #ff4d4d;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+  
